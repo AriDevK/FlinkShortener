@@ -11,22 +11,25 @@ A simple URL shortener built in **Flask**, **Bootstrap** and **SQLite**
 
 <br>
 
-## Table of Contents 
-  - [Usage](#usage)
-  - [Installation](#installation)
-  - [Contribute](#contribute)
-  - [Screenshots](#screenshots)
+## 📑 Table of Contents 
+  - [Usage](#-usage)
+  - [Installation](#-installation)
+  - [Contribute](#-contribute)
+  - [Things to do - Contribute ideas](#-things-to-do---contribute-ideas)
+  - [Screenshots](#-screenshots)
+
 <br>
 
-## Usage
+
+## 🤖 Usage
 You can access to it on https://flinkshortener.herokuapp.com
 
 <br>
 
-## Installation
+## ⚙ Installation
 1. Clone the repo and go to the directory.
 ```shell
-$ git clone https://github.com/Ari-Qu3sadillas/URL.git
+$ git clone https://github.com/Ari-Qu3sadillas/FlinkShortener.git
 $ cd FlinkShortener
 ```
 2. Initialize and activate a virtualenv.
@@ -48,9 +51,9 @@ In order to change betweem the Development & Production environment you may go t
 
 <br>
 
-## Contribute
+## 🗳 Contribute
 
-You can contribute to the development or improvement of this app and it will be much appreciated if you do !
+You can contribute to the development or improvement of this app and it will be much appreciated if you do 🥰
 
 ### Step 1
 
@@ -67,7 +70,15 @@ You can contribute to the development or improvement of this app and it will be 
 <br>
 
 
-## Screenshots
+## 💭 Things to do - Contribute ideas
+
+These are things that I will implement later (You can also take these ideas if you want to contribute 😊)
+- Use the flask CLI and let the app run as development or production environment.
+- Manage the POST request using AJAX.
+
+<br>
+
+## 📷 Screenshots
 <img style="float: right;" width= "480" src= "https://github.com/Ari-Qu3sadillas/FlinkShortener/blob/main/screenshots/flinkshortener-home.png"/>
 
 
