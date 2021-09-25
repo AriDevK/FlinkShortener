@@ -1,4 +1,4 @@
-# FlinkShortener
+# ✨ FlinkShortener ✨
 A simple URL shortener built in **Flask**, **Bootstrap** and **SQLite**
 
 
