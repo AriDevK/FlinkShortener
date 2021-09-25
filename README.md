@@ -1,5 +1,9 @@
 # FlinkShortener
-A simple URL shortener built with 
+A simple URL shortener built in **Flask**, **Bootstrap** and **SQLite**
+
+
+<img align= "center" width= "1024" src= "https://github.com/Ari-Qu3sadillas/FlinkShortener/blob/main/screenshots/flinkshortener-intro.gif"/>
+
 
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
@@ -11,8 +15,7 @@ A simple URL shortener built with
   - [Usage](#usage)
   - [Installation](#installation)
   - [Contribute](#contribute)
-  - [License](#license)
-
+  - [Screenshots](#screenshots)
 <br>
 
 ## Usage
@@ -43,3 +46,28 @@ $ python ./run.py
 ```
 In order to change betweem the Development & Production environment you may go to the __init__.py file and change it manually. (Sorry this will be updated soon)
 
+<br>
+
+## Contribute
+
+You can contribute to the development or improvement of this app and it will be much appreciated if you do !
+
+### Step 1
+
+- Fork or Clone this repo
+
+### Step 2
+
+- Magic Magic Magic ✨✨✨
+
+### Step 3
+
+- Create a new pull request
+
+<br>
+
+
+## Screenshots
+<img align= "left" width= "480" src= "https://github.com/Ari-Qu3sadillas/FlinkShortener/blob/main/screenshots/flinkshortener-home.png"/> 
+<img align= "center" width= "480" src= "https://github.com/Ari-Qu3sadillas/FlinkShortener/blob/main/screenshots/flinkshortener-404.png"/>
+<img align= "rigth" width= "480" src= "https://github.com/Ari-Qu3sadillas/FlinkShortener/blob/main/screenshots/flinkshortener-500.png"/>
