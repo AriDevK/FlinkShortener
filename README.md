@@ -27,7 +27,7 @@ You can access to it on https://flinkshortener.herokuapp.com
 1. Clone the repo and go to the directory.
 ```shell
 $ git clone https://github.com/Ari-Qu3sadillas/URL.git
-$ cd flink-shortener
+$ cd FlinkShortener
 ```
 2. Initialize and activate a virtualenv.
 ```shell
@@ -68,6 +68,10 @@ You can contribute to the development or improvement of this app and it will be 
 
 
 ## Screenshots
-<img align= "left" width= "480" src= "https://github.com/Ari-Qu3sadillas/FlinkShortener/blob/main/screenshots/flinkshortener-home.png"/> 
-<img align= "center" width= "480" src= "https://github.com/Ari-Qu3sadillas/FlinkShortener/blob/main/screenshots/flinkshortener-404.png"/>
-<img align= "rigth" width= "480" src= "https://github.com/Ari-Qu3sadillas/FlinkShortener/blob/main/screenshots/flinkshortener-500.png"/>
+<img style="float: right;" width= "480" src= "https://github.com/Ari-Qu3sadillas/FlinkShortener/blob/main/screenshots/flinkshortener-home.png"/>
+
+
+<img width= "480" src= "https://github.com/Ari-Qu3sadillas/FlinkShortener/blob/main/screenshots/flinkshortener-404.png"/>
+
+
+<img width= "480" src= "https://github.com/Ari-Qu3sadillas/FlinkShortener/blob/main/screenshots/flinkshortener-500.png"/>
