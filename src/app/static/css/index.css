@@ -1,0 +1,44 @@
+header {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.title {
+    font-family: daily_change;
+    text-decoration: underline;
+}
+
+.phrase {
+    font-size: 15px;
+    font-weight: 3px;
+}
+
+.link-form {
+    padding-bottom: 40px;
+}
+    
+@media (min-width:200px) and (max-height:800px){
+    .anime-girl {
+        margin-bottom: 10px;
+        min-height: auto;
+        max-height: 400px;
+        position : relative;
+    }
+
+    .form-control::placeholder {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 15px !important;
+    }
+}
+
+@media (min-width:800px) and (min-height:801px){
+    .anime-girl {
+        margin-bottom: 10px;
+        min-height: auto;
+        max-height: 500px;
+        position : relative;
+    }
+}

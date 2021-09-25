@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block styles %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/error.css') }}">
+{% endblock styles %}
+
+{% block container %}
+    <div class="container page-wrapper">
+        <div class="row justify-content-center">
+            <div class="col-md-6 message">
+                <h1 class="fw-bold text-center">404 - Page not found</h1>
+                <img src="{{ url_for('static', filename='pictures/404.png') }}" alt="">
+                <h4>This site is not working or do not exist, if you need to short a link you can do it <a href="{{ url_for('index') }}" class="link-info">here</a>.</h4>
+            </div>
+        </div>
+    </div>
+{% endblock container %}

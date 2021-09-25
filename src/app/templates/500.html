@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block styles %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/error.css') }}">
+{% endblock styles %}
+
+{% block container %}
+    <div class="container page-wrapper">
+        <div class="row justify-content-center">
+            <div class="col-md-6 message">
+                <h1 class="fw-bold text-center">500 - Internal server error</h1>
+                <img src="{{ url_for('static', filename='pictures/500.jpg') }}" alt="">
+                <h4>We are having some problems with this link, please go back to <a href="{{ url_for('index') }}" class="link-info">home</a>.</h4>
+            </div>
+        </div>
+    </div>
+{% endblock container %}

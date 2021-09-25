@@ -1,0 +1,58 @@
+{% from '/macros/_flash.html' import render_flashes %}
+{% extends 'base.html' %}
+
+{% block title %}
+{{ super() }} Home
+{% endblock title %}
+
+
+{% block styles %}
+{{ super() }}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock styles %}
+
+
+{% block container %}
+<div class="container-sm page-wrapper">
+
+    <header>
+        <h1 class="title text-center text-white display-1">Flink Shortener</h1>
+        <p class="phrase">{{ phrase }} <br> - {{ author }} -</p>
+    </header>
+    
+    <div class="row justify-content-center">
+        <div class="col-sm-8 col-md-4 mx-auto">
+            <img src="{{ url_for('static', filename='pictures/' + anime_pic) }}" alt=""
+                class="anime-girl img-fluid">
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-sm-12">
+            <form method="post" class="link-form">
+                {{ form.csrf_token }}
+                <div class="form-group">
+                    <div class="input-group input-group-lg">
+                        {% if shortedlink %}
+                        {{ form.url(class_='form-control', placeholder='Paste your long URL and get it flinked now! ✂', value = shortedlink) }}
+                        {% else %}
+                        {{ form.url(class_='form-control', placeholder='Paste your long URL and get it flinked now! ✂') }}
+                        {% endif %}
+                        <button class="btn btn-secondary" id="copy" type="button" disabled>Copy</button>
+                        {{ form.submit(class_='btn btn-primary') }}
+                    </div>
+                </div>
+                <div class="flashes">
+                    {{ render_flashes('primary') }}
+                    {{ render_flashes('danger') }}
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock container %}
+
+{% block scripts %}
+    {{ super() }}
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+{% endblock scripts %}

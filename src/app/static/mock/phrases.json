@@ -1,0 +1,31 @@
+{
+    "1" : {
+        "author" : "Napoleon Hill",
+        "phrase" : "If you cannot do great things, do small things in a great way." 
+    },
+
+    "2" : {
+        "author" : "Vincent Van Gogh",
+        "phrase" : "Great things are done by a series of small things brought together."
+    },
+
+    "3" : {
+        "author" : "Kell Brook",
+        "phrase" : "Small things make me smile."
+    },
+
+    "4" : {
+        "author" : "The Great Kahli",
+        "phrase" : "It's the small things that will make you successful."
+    },
+
+    "5" : {
+        "author" : "Jackie Chan",
+        "phrase" : "I do small things. I try to do good things every day."
+    },
+
+    "6" : {
+        "author" : "Napoleon Hill",
+        "phrase" : "I try to work on the small things."
+    }
+}

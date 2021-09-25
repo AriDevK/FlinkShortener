@@ -1,0 +1,26 @@
+@font-face {
+    font-family: daily_change;
+    src: url(../fonts/Daily\ Challenge.otf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: roboto !important;
+    background: radial-gradient(#a173ff, #145683);
+    background-size: 100% 100%;
+}
+
+.alert {
+    font-size: 15px;
+}
